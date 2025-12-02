@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Marcellus+SC&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-image: url('img/ramas_fondo.png');
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+    background-color: #f8f8f8;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-family: "Marcellus", 'Times New Roman';
+    font-weight: normal !important
+}
+
+html {
+    height: 100%;
+}
+
+p.lead {
+    font-size: 1.25rem;
+}
+
+
+.juego-frame {
+    width: 100%;
+    height: 100%;
+}
+
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+
+.navbar-custom .nav-link {
+    color: #198754 !important;
+}
+
+.navbar-custom .nav-link.active {
+    color: #0b482b !important;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #3bc886 !important;
+}
+
+.card-title,
+h2,
+h3 {
+    font-family: "Marcellus", 'Times New Roman';
+}
+
+.modal-Batalla {
+    font-family: "Open Sans", sans-serif;
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.btn-peterpan-green {
+    background-color: #198754;
+    color: white;
+    border-color: #198754;
+    box-shadow: none;
+}
+
+
+.btn-peterpan-green:hover,
+.btn-peterpan-green:active,
+.btn-peterpan-green:focus {
+    background-color: #157347;
+    border-color: #157347;
+    color: white;
+}
+
+.custom-feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+.list-group-item {
+    background-color: transparent !important;
+}

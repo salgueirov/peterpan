@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-custom">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/titulo.png" class="img-fluid d-block mx-auto" alt="logo" width="50%">
+                    </a>
+                </div>
+                <div class="container-fluid">
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mx-auto">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="sobre.html">Sobre el juego</a>
+                            <a class="nav-link" href="créditos.html">Créditos</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-8 col-sm-10 g-4 d-block mx-auto">
+                <h1>Bienvenido a Nunca Jamás, donde tu decisión lo cambia todo...</h1>
+                <p class="lead">
+                    Tu aventura en Nunca Jamás comienza ahora. Ponte en la piel de Wendy y guía su camino a través de
+                    encuentros mágicos y desafíos inesperados. Cada decisión que tomes influirá en el destino de los
+                    Niños Perdidos, Peter Pan y el temible Capitán Garfio.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-8 col-sm-10 g-4  mx-auto">
+                <div class="card text-center card shadow p-4">
+                    <img src="img/juego.png" class="card-img-top " alt="juego">
+                    <div class="card-body">
+                        <p class="text-muted small">
+                            Elige tu propio destino: ¡Descubre los tres finales posibles!
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-peterpan-green mx-auto" data-bs-toggle="modal"
+                            data-bs-target="#modalAventura">
+                            ¡EMPEZAR LA AVENTURA!
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalAventura" tabindex="-1" aria-labelledby="modalAventuraLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalAventuraLabel">Aventura Grafica</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="p5/index.html" frameborder="0" width="650px"
+                                            height="490px"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-sm-10 g-4 d-block mx-auto">
+                <h1>Peter Pan vs Garfio</h1>
+                <p class="lead">
+                    Más allá de la aventura y la exploración narrativa, el destino de Peter Pan y el temible Capitán
+                    Garfio siempre desemboca en un choque épico.
+                    Hemos recreado el enfrentamiento definitivo entre el niño que no quiere crecer y el pirata
+                    obsesionado con el tiempo.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-sm-10 g-4  mx-auto">
+                <div class="card text-center card shadow p-4">
+                    <img src="img/pvp.png" class="card-img-top " alt="juego">
+                    <div class="card-body">
+                        <p class="text-muted small">
+                            Esquiva, bloquea y ataca a tu oponente para reclamar la victoria de Nunca Jamás.
+                        </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-peterpan-green mx-auto" data-bs-toggle="modal"
+                            data-bs-target="#modalBatalla">
+                            ¡EMPEZAR LA BATALLA!
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalBatalla" tabindex="-1" aria-labelledby="modalBatallaLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="modalBatalla">Peter pan vs Garfio</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="tpfinalparte2/index.html" frameborder="0" width="650px"
+                                            height="490px"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class=" text-center py-4 mt-5">
+            <div class="container">
+                <div class="col-md-8 col-sm-10 g-4 d-block mx-auto">
+                    <p class="mb-0">Trabajo Práctico de Tecnologías Web - Salgueiro Valentina 119139/1 </p>
+                    <p class="mb-0"> Esta pagina fue desarrollado con fines educativos, aplicando HTML, CSS, Bootstrap y
+                        p5.js.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"> </script>
+    <script>
+        
+        //Control para el modal de la aventura
+        const modalAventura = document.getElementById('modalAventura');
+
+        if (modalAventura) {
+            modalAventura.addEventListener('shown.bs.modal', function () {
+                const iframe = modalAventura.querySelector('iframe');
+                if (iframe && iframe.contentWindow.iniciarMusicaAventura) {
+                    iframe.contentWindow.iniciarMusicaAventura();
+                }
+            });
+
+            modalAventura.addEventListener('hidden.bs.modal', function () {
+                const iframe = modalAventura.querySelector('iframe');
+                if (iframe && iframe.contentWindow.detenerMusicaAventura) {
+                    iframe.contentWindow.detenerMusicaAventura();
+                }
+            });
+        }
+
+
+        //Control para el modal del juego PVP
+        const modalBatalla = document.getElementById('modalBatalla');
+
+        if (modalBatalla) {
+            modalBatalla.addEventListener('shown.bs.modal', function () {
+                const iframe = modalBatalla.querySelector('iframe');
+                if (iframe && iframe.contentWindow.iniciarMusicaPVP) {
+                    iframe.contentWindow.iniciarMusicaPVP();
+                }
+            });
+
+            modalBatalla.addEventListener('hidden.bs.modal', function () {
+                const iframe = modalBatalla.querySelector('iframe');
+                if (iframe && iframe.contentWindow.detenerMusicaPVP) {
+                    iframe.contentWindow.detenerMusicaPVP();
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
