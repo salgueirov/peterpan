@@ -89,6 +89,7 @@ h3 {
     background-color: transparent !important;
 }
 
+
 @media (max-width: 576px) {
     body {
         background-image: url('img/fondosm.png');
@@ -104,4 +105,5 @@ h3 {
         padding-right: 40px;
     }
 }
+
 
